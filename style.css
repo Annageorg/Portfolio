@@ -2,7 +2,7 @@
 :root {
     --main-white: #f0f0f0;
     --main-red: #b9273a;
-    --main-green: #1b5517;
+    --main-green: #12720b;
     --main-gray: #343c44;
 }
   
@@ -149,7 +149,7 @@
     text-align: center;
     padding: 10rem 2rem;
     background: var(--main-green);
-    background-image: linear-gradient(182deg, #084079 0%, #502180 50%);
+    background-image: linear-gradient(182deg, #0d549b 0%, #502180 50%);
   }
   
   .projects-section-header {
@@ -196,7 +196,7 @@
     transition: color 0.3s ease-out;
   }
   
-  .project:hover .code {
+  .project-title:hover .code {
     color: #ff7f50;
   }
   
