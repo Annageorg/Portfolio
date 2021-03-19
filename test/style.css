@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h1, h2 {
+
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: grey;
+
+}
+
+.nav {
+    background-color: brown;
+
+}
+
+.intro {
+    background-color: turquoise;
+}
+ 
+.projects {
+    background-color: yellowgreen;
+
+}
+
+.contact {
+    background-color: violet;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    
+}
