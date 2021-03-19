@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Anna G. Web Developer</title>
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <title>Anna G. Web Developer</title>        
         <!-- Bootstrap CSS -->
         <link 
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
@@ -26,30 +25,59 @@
         src="https://kit.fontawesome.com/16736f3fa0.js" 
         crossorigin="anonymous">
         </script>
-
-
+        <!-- My CSS -->
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
     </head>
+
     <body>
         <!-- Navigation Bar -->
         <header>
-            <nav>
-
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#introduction">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>                        
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>                        
+                    </li>
+                </ul>              
             </nav>
         </header>
         <!-- Introduction -->
-        <section>
-
+        <section id="introduction" class="intro">
+            <h1 >Hi I am Anna</h1>
+            <p>a web developer in the making...</p>
+            <hr>
+            <p>From </p>
         </section>
         <!-- Projects -->
-        <section>
-
+        <section id="projects" class="projects">
+            <div class="grid-container">
+                <div class="grid-item">1</div>
+                <div class="grid-item">2</div>
+                <div class="grid-item">3</div>
+                <div class="grid-item">4</div>
+                <div class="grid-item">5</div>
+                <div class="grid-item">6</div>
+            </div>
+            <button>Show All</button>
         </section>
-        <!-- Outro -->
-        <section>
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <h2>Find me here</h2>
+            <i class="fab fa-linkedin"></i>LinkedIn
+            <i class="fab fa-github"></i>GitHub
+            <i class="fab fa-twitter"></i>Twitter
+            <i class="fas fa-envelope"></i>Mail
+            <i class="fas fa-mobile-alt"></i>Call me
 
         </section>
         <!-- Footer -->
         <footer>
+            
 
         </footer>
         <!-- Bootstrap JS scripts -->
